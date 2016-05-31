@@ -50,8 +50,70 @@ body {
   float: left;
   margin-top: 0; }
 
-.works {
+.description {
+  margin: 1em 5%;
+  margin-top: 2.5em;
+  color: #FBFFF1;
+  font-family: 'nobile';
+  font-weight: 400;
+  line-height: 1.5em; }
+  .description > a {
+    line-height: 3em;
+    color: #FBFFF1;
+    text-decoration: underline; }
+
+.about {
   margin-top: 20em;
+  padding-left: 5%;
+  color: #FBFFF1;
+  font-family: 'Source Sans Pro';
+  font-weight: 400; }
+  .about > h1 {
+    margin-bottom: 0; }
+
+.about-box {
+  background-color: #6DA398;
+  padding: 2em 1em; }
+
+.about-left {
+  width: 65%;
+  float: left;
+  font-size: 1.3em; }
+  .about-left .about-des {
+    margin-top: 1em; }
+
+.about-right {
+  width: 35%;
+  float: right; }
+  .about-right .res-title {
+    margin-left: 3.3%;
+    color: #FBFFF1;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    margin: 0.37em 0; }
+  .about-right .res-des {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 2.2;
+    padding-left: 5%; }
+
+.infoLinks {
+  margin: 0 auto;
+  clear: both;
+  width: 14%;
+  padding-top: 2em; }
+  .infoLinks > a {
+    width: 30%;
+    display: inline-block; }
+
+.fa {
+  font-size: 2em;
+  color: #FBFFF1;
+  margin: 0 25%;
+  width: 10%; }
+
+.works {
+  margin-top: 6em;
   padding-left: 5%;
   color: #FBFFF1;
   font-family: 'Source Sans Pro';
@@ -65,8 +127,8 @@ body {
   overflow: hidden; }
 
 .bestfeed-box {
-  background-color: #34897D;
-  margin-top: 5em;
+  background-color: #37625C;
+  margin: 2em 0 5em;
   padding: 1em;
   overflow: hidden; }
 
@@ -104,26 +166,14 @@ img {
   max-width: 20em;
   float: left; }
 
-.description {
-  margin: 1em 5%;
-  margin-top: 2.5em;
-  color: #FBFFF1;
-  font-family: nobile;
-  font-weight: 400;
-  line-height: 1.5em; }
-  .description > a {
-    line-height: 3em;
-    color: #FBFFF1;
-    text-decoration: underline; }
-
 .bottomSide .picLink > img {
   margin-left: 4%;
   height: 17em;
   width: 44%; }
 
 .pointer-box {
-  margin: 5em 0;
-  background-color: #37625C;
+  background-color: #34897D;
+  margin-top: 2em;
   padding: 1em;
   overflow: hidden; }
   .pointer-box .leftSide {
