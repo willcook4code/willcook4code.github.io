@@ -100,11 +100,20 @@ body {
 .infoLinks {
   margin: 0 auto;
   clear: both;
-  width: 14%;
-  padding-top: 2em; }
+  width: 40%;
+  padding-top: 2em;
+  text-align: center; }
   .infoLinks > a {
-    width: 30%;
+    width: 22%;
     display: inline-block; }
+  .infoLinks .res-butt {
+    background-color: #FBFFF1;
+    text-decoration: none;
+    color: #6DA398;
+    text-align: center;
+    padding: 0.4em;
+    border-radius: 10px;
+    vertical-align: bottom; }
 
 .fa {
   font-size: 2em;

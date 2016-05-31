@@ -104,12 +104,22 @@ body {
 }
 .infoLinks {
   margin: 0 auto;
-  clear: both; 
-  width: 14%;
+  clear: both;
+  width: 40%;
   padding-top: 2em;
+  text-align: center;
   > a {
-    width: 30%;
+    width: 22%;
     display: inline-block;
+  }
+  .res-butt {
+    background-color: #FBFFF1;
+    text-decoration: none;
+    color: #6DA398;
+    text-align: center;
+    padding: 0.4em;
+    border-radius: 10px;
+    vertical-align: bottom;
   }
 }
 .fa {
