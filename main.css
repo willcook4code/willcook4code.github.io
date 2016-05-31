@@ -104,7 +104,7 @@ body {
   padding-top: 2em;
   text-align: center; }
   .infoLinks > a {
-    width: 22%;
+    width: 10%;
     display: inline-block; }
   .infoLinks .res-butt {
     background-color: #FBFFF1;
@@ -113,7 +113,8 @@ body {
     text-align: center;
     padding: 0.4em;
     border-radius: 10px;
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    width: 22%; }
 
 .fa {
   font-size: 2em;
