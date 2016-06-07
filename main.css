@@ -10,10 +10,11 @@ body {
   color: #FBFFF1;
   font-family: 'Source Sans Pro';
   padding: 1em 2.5em;
+  box-sizing: border-box;
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 95%; }
+  width: 100%; }
 
 .headline {
   margin: 0;
