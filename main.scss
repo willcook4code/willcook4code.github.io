@@ -53,7 +53,7 @@ body {
 }
 .description {
   margin: 1em 5%;
-  margin-top: 2.5em;
+  margin-top: 0;
   color: #FBFFF1;
   font-family: 'nobile';
   font-weight: 400;
@@ -213,7 +213,122 @@ img {
   }
 }
 
+@media (max-width: 872px) {
+  .topBar {
+    padding: .3em 2.5em 0;
+  }
+  .headline {
+    width: 17.5em;
+  }
+  .title {
+    margin-top: .3em;
+  }
+  .contact-wrapper {
+    width: 19%;
+    color: #FBFFF1;
+    font-family: 'Source Sans Pro';
+    float: right;
+    padding-top: 0;
+    padding-right: 4em;
+  }
+  .phone {
+    margin: .5em 0;
+  }
+  .infoLinks {
+    width: 100%;
+    > a {
+      width: 3em;
+    }
+    .res-butt {
+      width: 7em;
+    }
+  }
+  .about-box {
+    padding: 2em 5%;
+  }
+  .about-left {
+    width: 100%;
+    float: none;
+  }
+  .about-right {
+    width: 100%;
+    float: none;
+  }
+  .res-des {
+    padding-right: 11%;
+  }
+  .leftSide {
+      width: 100%;
+      float: none;
+  }
+  .long {
+    display: none;
+  }
+  .pointer-box {
+      .leftSide {
+        width: 100%;
+        > a {
+          display: flex;
+          justify-content: center;
+        }
+        .short {
+          height: 17em;
+          min-width: 24em;
+        }
+      }
+      .rightSide {
+        display: none;
+      }
+  }
+  .bottomSide {
+    overflow: hidden;
+    text-align: center;
+    .picLink > img {
+      min-width: 30em;
+      margin-bottom: 2em;
+    }
+  }
+  .bestHome {
+    height: 17em;
+  }
+  .bestList {
+    height: 12em;
+  }
+}
 
+@media (max-width: 504px) {
+  .headline {
+    float: none;
+    width: 93%;
+  }
+  .title {
+    width: 7em;
+  }
+  .contact-wrapper {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .phone {
+    width: 10em;
+  }
+  .email {
+    margin-bottom: 0;
+    margin-top: 0.5em;
+  }
+  .weddit-box {
+    .short {
+      margin-top: 2em;
+      width: 88%;
+    }
+  }
+  .bottomSide {
+    .picLink > img {
+      min-width: 25em;
+      height: 12em;
+    }
+  }
+}
 
 
 
