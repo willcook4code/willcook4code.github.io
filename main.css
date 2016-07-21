@@ -273,10 +273,16 @@ img {
 @media (max-width: 504px) {
   .headline {
     float: none;
-    width: 93%; }
+    width: 100%;
+    text-align: center; }
+
+  .name {
+    float: none;
+    width: 100%; }
 
   .title {
-    width: 7em; }
+    width: 100%;
+    margin-bottom: 1em; }
 
   .contact-wrapper {
     width: 100%;
@@ -284,11 +290,12 @@ img {
     text-align: center; }
 
   .phone {
-    width: 10em; }
+    width: 100%;
+    float: none; }
 
   .email {
-    margin-bottom: 0;
-    margin-top: 0.5em; }
+    margin: .5em auto;
+    float: none; }
 
   .weddit-box .short {
     margin-top: 2em;
