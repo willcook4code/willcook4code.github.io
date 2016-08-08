@@ -297,12 +297,20 @@ img {
     margin: .5em auto;
     float: none; }
 
+  .infoLinks > a {
+    margin-top: 1em; }
+
   .weddit-box .short {
     margin-top: 2em;
     width: 88%; }
 
+  .pointer-box .leftSide .short {
+    min-width: 100%;
+    height: 14em;
+    margin: 0; }
+
   .bottomSide .picLink > img {
-    min-width: 25em;
+    min-width: 89%;
     height: 12em; } }
 
 /*# sourceMappingURL=main.css.map */
