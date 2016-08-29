@@ -1,8 +1,8 @@
 body {
   background-image: url(./images/less-pieces.jpg);
   background-size: cover;
-  background-position-y: -10em;
-  background-repeat: repeat;
+  background-position: 0px -7em;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .topBar {
@@ -71,7 +71,8 @@ nav {
 .contact {
   font-weight: 400;
 }
-.phone {
+.about {
+  margin-top: 32em;
 }
 
 
