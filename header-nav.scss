@@ -1,0 +1,103 @@
+.topBar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #2B3735;
+  padding: 1em 2.5em;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 1px 13px rgba(0,0,0,0.6);
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 149px;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  background-color: #37625C;
+  box-sizing: border-box;
+  padding: 1em 5% .5em;
+  line-height: 1.7em;
+  > a {
+    display: inline-block;
+    margin: 0 .5em;
+    color: #FBFFF1;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    cursor: pointer;
+    font-style: italic;
+  }
+}
+.nav-up {
+    top: 0px;
+}
+.name, .title, .contact, .phone {
+  margin: 0;
+}
+.headline, .contact-wrapper {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+  min-width: 180px;
+}
+.contact-wrapper {
+  margin-top: .5em;
+}
+.name {
+  white-space: nowrap;
+}
+.contact {
+  font-weight: 400;
+}
+.about {
+  margin-top: 32em;
+}
+
+
+@media (min-width: 440px) {
+  nav {
+    top: 96px;
+  }
+  .name, .title {
+    margin-right: 1.5em;
+  }
+  .contact, .phone {
+    margin-left: 2.13em;
+  }
+  .headline {
+    justify-content: flex-start;
+  }
+  .contact-wrapper {
+    height: 3.2em;
+    color: #FBFFF1;
+    justify-content: flex-end;
+    margin-top: .5em;
+  }
+  .name {
+    white-space: nowrap;
+  }
+  .contact {
+    font-weight: 400;
+  }
+  .phone {
+  }
+}
+
+@media (min-width: 793px) {
+  nav {
+    top: 72px;
+  }
+  .contact-wrapper {
+    height: initial;
+  }
+}

@@ -1,0 +1,24 @@
+.about-box {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 32em;
+	.about, .about-right {
+		display: flex;
+		justify-content: center;
+		> h1 {
+			font-weight: 100;
+		    margin-bottom: 0;
+		}
+	}
+	.content-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	.about-right {
+		flex-direction: column;
+	}
+	.description {
+		font-weight: 200;
+	}
+}

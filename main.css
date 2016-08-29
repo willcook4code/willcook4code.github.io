@@ -3,7 +3,12 @@ body {
   background-size: cover;
   background-position: 0px -7em;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  font-family: 'Source Sans Pro';
+  color: #FBFFF1; }
+
+.main {
+  background: #6DA398; }
 
 .topBar {
   display: flex;
@@ -11,8 +16,6 @@ body {
   justify-content: center;
   align-items: baseline;
   background-color: #2B3735;
-  color: #FBFFF1;
-  font-family: 'Source Sans Pro';
   padding: 1em 2.5em;
   box-sizing: border-box;
   overflow: hidden;
@@ -38,7 +41,6 @@ nav {
     display: inline-block;
     margin: 0 .5em;
     color: #FBFFF1;
-    font-family: 'Source Sans Pro';
     text-decoration: none; }
   nav .nav-link:hover {
     cursor: pointer;
@@ -59,8 +61,6 @@ nav {
   min-width: 180px; }
 
 .contact-wrapper {
-  color: #FBFFF1;
-  font-family: 'Source Sans Pro';
   margin-top: .5em; }
 
 .name {
@@ -88,7 +88,6 @@ nav {
   .contact-wrapper {
     height: 3.2em;
     color: #FBFFF1;
-    font-family: 'Source Sans Pro';
     justify-content: flex-end;
     margin-top: .5em; }
 
@@ -103,5 +102,23 @@ nav {
 
   .contact-wrapper {
     height: initial; } }
+.about-box {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 32em; }
+  .about-box .about, .about-box .about-right {
+    display: flex;
+    justify-content: center; }
+    .about-box .about > h1, .about-box .about-right > h1 {
+      font-weight: 100;
+      margin-bottom: 0; }
+  .about-box .content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .about-box .about-right {
+    flex-direction: column; }
+  .about-box .description {
+    font-weight: 200; }
 
 /*# sourceMappingURL=main.css.map */
