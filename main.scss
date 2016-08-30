@@ -11,7 +11,7 @@ body {
   background: #6DA398;
 }
 section {
-  padding-bottom: 4em;
+  padding-bottom: 3em;
 }
 .titles {
   width: 50%;
@@ -24,6 +24,14 @@ section {
     margin-bottom: 0;
     text-align: center;
   }
+}
+.divider {
+  width: 0.1px;
+  height: 0.1px;
+  border: 5px solid;
+  border-radius: 1em;
+  margin: 0 auto;
+  margin-bottom: 3em;
 }
 
 @import 'header-nav.scss';
