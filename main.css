@@ -69,8 +69,34 @@ nav {
 .contact {
   font-weight: 400; }
 
-.about {
+.about-box {
+  width: 85%;
+  margin: 0 auto;
   margin-top: 32em; }
+  .about-box .about, .about-box .about-right {
+    display: flex;
+    justify-content: center; }
+    .about-box .about > h1, .about-box .about-right > h1 {
+      font-weight: 100;
+      margin-bottom: 0; }
+  .about-box .about {
+    width: 50%;
+    min-width: 15em;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    padding-bottom: .5em; }
+  .about-box .content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 57em;
+    margin: 0 auto; }
+  .about-box .about-right {
+    flex-direction: column; }
+  .about-box .description {
+    font-weight: 200; }
+  .about-box .res-title {
+    font-size: 1.5em; }
 
 @media (min-width: 440px) {
   nav {
@@ -101,24 +127,22 @@ nav {
     top: 72px; }
 
   .contact-wrapper {
-    height: initial; } }
-.about-box {
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 32em; }
-  .about-box .about, .about-box .about-right {
-    display: flex;
-    justify-content: center; }
-    .about-box .about > h1, .about-box .about-right > h1 {
-      font-weight: 100;
-      margin-bottom: 0; }
-  .about-box .content-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around; }
-  .about-box .about-right {
-    flex-direction: column; }
-  .about-box .description {
-    font-weight: 200; }
+    height: initial; }
+
+  .about-left {
+    display: block;
+    width: 65%; }
+
+  .about-right {
+    display: block;
+    width: 35%; }
+
+  .res-title {
+    margin-top: 0.7em;
+    min-width: 8em;
+    padding-left: .2em; }
+
+  .res-des {
+    padding-left: 10%; } }
 
 /*# sourceMappingURL=main.css.map */

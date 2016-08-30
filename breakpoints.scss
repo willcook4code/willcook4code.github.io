@@ -1,0 +1,64 @@
+@media (min-width: 440px) {
+  nav {
+    top: 96px;
+  }
+  .name, .title {
+    margin-right: 1.5em;
+  }
+  .contact, .phone {
+    margin-left: 2.13em;
+  }
+  .headline {
+    justify-content: flex-start;
+  }
+  .contact-wrapper {
+    height: 3.2em;
+    color: #FBFFF1;
+    justify-content: flex-end;
+    margin-top: .5em;
+  }
+  .name {
+    white-space: nowrap;
+  }
+  .contact {
+    font-weight: 400;
+  }
+  .phone {
+  }
+}
+
+@media (min-width: 793px) {
+  nav {
+    top: 72px;
+  }
+  .contact-wrapper {
+    height: initial;
+  }
+  .about-left {
+    display: block;
+    width: 65%;
+  }
+  .about-right {
+    display: block;
+    width: 35%;
+  }
+  .res-title {
+    margin-top: 0.7em;
+    min-width: 8em;
+    padding-left: .2em;
+  }
+  .res-des {
+    padding-left: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

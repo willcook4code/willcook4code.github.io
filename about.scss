@@ -10,15 +10,27 @@
 		    margin-bottom: 0;
 		}
 	}
+	.about {
+	    width: 50%;
+		min-width: 15em;
+		margin: 0 auto;
+		border-bottom: 1px solid;
+		padding-bottom: .5em;
+	}
 	.content-container {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
+		max-width: 57em;
+    	margin: 0 auto;
 	}
 	.about-right {
 		flex-direction: column;
 	}
 	.description {
 		font-weight: 200;
+	}
+	.res-title {
+		font-size: 1.5em;
 	}
 }
