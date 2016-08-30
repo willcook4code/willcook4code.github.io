@@ -27,6 +27,18 @@
   }
 }
 
+@media (min-width: 470px) {
+  .infoLinks > a {
+    margin: 6%;
+  }
+}
+
+@media (min-width: 563px) {
+  .infoLinks > a {
+    margin: .4em;
+  }
+}
+
 @media (min-width: 793px) {
   nav {
     top: 72px;

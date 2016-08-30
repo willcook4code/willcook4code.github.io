@@ -10,9 +10,25 @@ body {
 .main {
   background: #6DA398;
 }
+section {
+  padding-bottom: 4em;
+}
+.titles {
+  width: 50%;
+  min-width: 15em;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  padding-bottom: .5em;
+  > h1 {
+    font-weight: 100;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
 
 @import 'header-nav.scss';
 @import 'about.scss';
+@import 'links.scss';
 @import 'breakpoints.scss';
 
 

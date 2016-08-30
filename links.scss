@@ -1,0 +1,24 @@
+.infoLinks {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	max-width: 58%;
+	margin: 2em auto;
+	> a {
+		margin: .8em;
+	}
+}
+
+.res-butt {
+	background-color: #FBFFF1;
+	text-decoration: none;
+	color: #6DA398;
+	text-align: center;
+	padding: 0.4em;
+	border-radius: 10px;
+}
+
+.fa {
+	font-size: 2em;
+	color: #FBFFF1;
+}
