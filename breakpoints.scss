@@ -64,7 +64,13 @@
   }
 }
 
-
+@media (min-width: 832px) {
+  .pics {
+    .mobile {
+      margin: .8em;
+    }
+  }
+}
 
 
 

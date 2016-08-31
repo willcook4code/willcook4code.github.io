@@ -2,7 +2,8 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 10;
 var navbarHeight = $('nav').outerHeight();
-
+var headerHeight = $('.topBar').height();
+console.log('Check out the site repo here https://github.com/willcook4code/willcook4code.github.io');
 $(window).scroll(function(event){
     didScroll = true;
 });
@@ -30,3 +31,19 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+
+$(function() {
+    $('a[href*=\\#]:not([href=\\#])').click(function() {
+        if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').delay(150)
+                .animate({
+                scrollTop: target.offset().top - (headerHeight + 25)
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});

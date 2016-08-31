@@ -2,7 +2,7 @@ body {
   background-image: url(./images/less-pieces.jpg);
   background-size: cover;
   background-position: 0px -7em;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Source Sans Pro';
   color: #FBFFF1; }
@@ -30,7 +30,7 @@ section {
   margin: 0 auto;
   border-bottom: 1px solid;
   padding-bottom: .5em; }
-  .titles > h1 {
+  .titles > h1, .titles h3 {
     font-weight: 100;
     margin-bottom: 0;
     text-align: center; }
@@ -154,6 +154,9 @@ nav {
   font-weight: 100;
   margin-bottom: 0.3em; }
 
+.techDes {
+  text-align: center; }
+
 .desLinks {
   margin: 3em auto;
   display: flex;
@@ -178,6 +181,15 @@ nav {
   .pics > img {
     width: 20em;
     margin: 0.8em; }
+  .pics .mobile {
+    height: 37.85em;
+    overflow: hidden;
+    margin: .8em auto; }
+    .pics .mobile > img {
+      width: 20em; }
+
+.links {
+  margin-bottom: 30em; }
 
 .infoLinks {
   display: flex;
@@ -252,5 +264,8 @@ nav {
 
   .res-des {
     padding-left: 10%; } }
+@media (min-width: 832px) {
+  .pics .mobile {
+    margin: .8em; } }
 
 /*# sourceMappingURL=main.css.map */

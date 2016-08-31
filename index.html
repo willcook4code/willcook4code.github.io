@@ -10,11 +10,11 @@
 </head>
 <body>
 	<nav class="nav-down">
-		<a class="nav-link" href="#">About</a>
-		<a class="nav-link" href="#">Ongoing</a>
-		<a class="nav-link" href="#">Responsive</a>
-		<a class="nav-link" href="#">Previous</a>
-		<a class="nav-link" href="#">Links</a>
+		<a class="nav-link" href="#about">About</a>
+		<a class="nav-link" href="#ongoing">Ongoing</a>
+		<a class="nav-link" href="#responsive">Responsive</a>
+		<a class="nav-link" href="#previous">Previous</a>
+		<a class="nav-link" href="#links">Links</a>
 	</nav>
 	<header class="topBar">
 		<div class="headline">
@@ -27,7 +27,7 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="about-box">
+		<section id="about" class="about-box">
 			<div class="about titles">
 				<h1>Past & Present</h1>
 			</div>
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="weddit-box">
+		<section id="ongoing" class="ongoing-box">
 			<div class="divider"></div>
 			<div class="works titles">
 				<h1>Ongoing</h1>
@@ -55,7 +55,7 @@
 				<h4 class="description">My final project for The Iron Yard was called Weddit - a wedding planning site with a focus on guest experience and interaction.</h4>
 				<div>
 					<h3 class="desTitle">Tech</h3>
-					<h4 class="description">React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.</h4>
+					<h4 class="description techDes">React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.</h4>
 				</div>
 				<div>
 					<h3 class="desTitle">API's</h3>
@@ -67,8 +67,8 @@
 					<h4 class="description">Password: password</h4>
 				</div>
 				<div class="desLinks">
-					<a href="https://github.com/willcook4code/weddit-app" target="_blank">See the Site!</a>
-					<a href="https://weddit.herokuapp.com" target="_blank">View the Code</a>
+					<a href="https://weddit.herokuapp.com" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/weddit-app" target="_blank">View the Code</a>
 				</div>
 			</div>
 			<div class="pics">
@@ -77,28 +77,99 @@
 				<img class="long" src="./images/weddit-attendee.png">
 			</div>
 		</section>
-		<!-- <section class="pointer-box">
-			<h1><a class="titleLink" href="https://pointerapp.herokuapp.com/" target="_blank">Pointer App</a></h1>
-			<div class="leftSide">
-				<h4 class="description">Building the Pointer App was exciting for many reasons. Our class of 10 front end programmers used the Scrum method, along with a Trello board to build out our user stories and break out the project into steps. The site was a prototype for a real-life client who was interested in constructing a tool for children to follow along with a story as it is read to them. The word being read is underlined to help with audio/visual association. It was a great opportunity to practice version control on github. We used React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass. </br>Dummy login: admin@admin.com   pw: admin</br> <a href="https://github.com/alarner/pointer-app" target="_blank">View the code here.</a></h4>
-				<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="short" src="./images/pointer-home.png"></a>
+		<section id="responsive" class="responsive-box">
+			<div class="divider"></div>
+			<div class="works titles">
+				<h1>Responsive</h1>
+				<h3>(Pssst! Hey, this here portfolio - it's also responsive. Go ahead and give it a spin!)</h3>
 			</div>
-			<div class="rightSide">
-				<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="long" src="./images/pointer-categories.png"></a>
-				<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="long" src="./images/pointer-read.png"></a>
+			<h1 class="title-container"><a class="titleLink" href="http://responsive-ex.surge.sh" target="_blank">Responsive Rebuild</a></h1>
+			<div class="details content-container">
+				<h4 class="description">A weekend project assigned at the end of our first week.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">HTML, CSS3, Sass.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="http://responsive-ex.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/responsive-site" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<div class="mobile">
+					<img class="short" src="./images/responsive-mobile.png">
+				</div>
+				<img class="short" src="./images/responsive-mid.png">
+				<img class="long" src="./images/responsive-wide.png">
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="http://wills-bootsrap.surge.sh" target="_blank">Bootstrap Rebuild</a></h1>
+			<div class="details content-container">
+				<h4 class="description">An exercise in Bootstrap.  Rebuild of a static mockup.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">Bootstrap, HTML, CSS3.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="http://wills-bootsrap.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/bootstrap-grid" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<div class="mobile">
+					<img class="short" src="./images/bootstrap-mobile.png">
+				</div>
+				<img class="short" src="./images/bootstrap-mid.png">
+				<img class="long" src="./images/bootstrap-wide.png">
 			</div>
 		</section>
-		<section class="bestfeed-box">
-			<h1><a class="titleLink" href="https://bestfeed.surge.sh" target="_blank">Best Feed</a></h1>
-			<div class="topSide">
-				<h4 class="description">Halfway through the course, we met up in groups of 4 to complete a project over the weekend. Our group was comprised of two Front End students, one Ruby student, and one student from Design. We built Best Feed - a site where users can vote on "Best of" lists from the internet to determine the best "Best of" list.  It was a great experience in learning how to work with other programmers of differing expertise.  Client-side programming was displayed from the server utilizing jQuery and AJAX requests from Backbone models, views, and collections. **This project is a continued work in progress. Our group is currently meeting for continued improvements.** </br> <a href="https://github.com/judan/best-of-list-team-wolfpack" target="_blank">View the code here.</a></h4>
+		<section id="previous" class="previous-box">
+			<div class="divider"></div>
+			<div class="works titles">
+				<h1>Previous</h1>
 			</div>
-			<div class="bottomSide">
-				<a class="picLink" href="https://bestfeed.surge.sh" target="_blank"><img class="bestHome" src="./images/best-feed.png"></a>
-				<a class="picLink" href="https://bestfeed.surge.sh" target="_blank"><img class="bestList" src="./images/feed-list.png"></a>
+			<h1 class="title-container"><a class="titleLink" href="https://pointerapp.herokuapp.com" target="_blank">Pointer App</a></h1>
+			<div class="details content-container">
+				<h4 class="description">Building the Pointer App was exciting for many reasons. Our class of 10 front end programmers used Agile methodologies, along with a Trello board to build out our user stories and break out the project into steps. My contributions centered mainly on the layout and functionality of the stories/categories page. The site was a prototype for a real-life client who was interested in constructing a tool for children to follow along with a story as it is read to them. The word being read is underlined to help with audio/visual association. It was a great opportunity to practice version control on github.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.</h4>
+				</div>
+				<div class="login">
+					<h3 class="desTitle">Sandbox Login</h3>
+					<h4 class="description">Username: admin@admin.com</h4>
+					<h4 class="description">Password: admin</h4>
+				</div>
+				<div class="desLinks">
+					<a href="https://pointerapp.herokuapp.com" target="_blank">See the Site!</a>
+					<a href="https://github.com/alarner/pointer-app" target="_blank">View the Code</a>
+				</div>
 			</div>
-		</section> -->
-		<section class="links">
+			<div class="pics">
+				<img class="short" src="./images/pointer-home.png">
+				<img class="short" src="./images/pointer-categories.png">
+				<img class="long" src="./images/pointer-read.png">
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="https://bestfeed.surge.sh" target="_blank">Best Feed</a></h1>
+			<div class="details content-container">
+				<h4 class="description">Halfway through the course, we met up in groups of 4 to complete a project over the weekend. Our group was comprised of two Front End students, one Ruby student, and one student from Design. We built Best Feed - a very meta site where users can vote on "Best of" lists from the internet to determine the best "Best of" list.  It was a great experience in learning how to work with other programmers of differing expertise.</h4>
+				<h4 class="description">
+					**Post-Iron Yard, we met to make improvements on this site. It was refactored into React, yet ultimately abandoned.  Our group continues to meet weekly to work on a lost pet locating app. (Soon to come, if not already displayed in the "Ongoing" section.)
+				</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">Client-side programming was displayed from the server utilizing jQuery and AJAX requests from Backbone models, views, and collections.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="https://bestfeed.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/judan/best-of-list-team-wolfpack" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<img class="short" src="./images/best-feed.png">
+				<img class="short" src="./images/feed-list.png">
+			</div>
+		</section>
+		<section id="links" class="links">
 			<div class="divider"></div>
 			<div class="links-title titles">
 				<h1>Click These Things</h1>

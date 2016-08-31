@@ -44,6 +44,10 @@
 	margin-bottom: 0.3em;
 }
 
+.techDes {
+	text-align: center;
+}
+
 .desLinks {
 	margin: 3em auto;
     display: flex;
@@ -71,6 +75,14 @@
 	> img {
 		width: 20em;
     	margin: 0.8em;
+	}
+	.mobile {
+	height: 37.85em;
+    overflow: hidden;
+    margin: .8em auto;
+    > img {
+    		width: 20em;
+    	}
 	}
 }
 
