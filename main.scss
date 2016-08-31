@@ -7,11 +7,22 @@ body {
   font-family: 'Source Sans Pro';
   color: #FBFFF1;
 }
+a {
+  text-decoration: none;
+  color: #FBFFF1;
+}
 .main {
   background: #6DA398;
 }
 section {
   padding-bottom: 3em;
+}
+.content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  max-width: 57em;
+  margin: 0 auto;
 }
 .titles {
   width: 50%;
@@ -36,6 +47,7 @@ section {
 
 @import 'header-nav.scss';
 @import 'about.scss';
+@import 'works.scss';
 @import 'links.scss';
 @import 'breakpoints.scss';
 

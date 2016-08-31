@@ -7,11 +7,22 @@ body {
   font-family: 'Source Sans Pro';
   color: #FBFFF1; }
 
+a {
+  text-decoration: none;
+  color: #FBFFF1; }
+
 .main {
   background: #6DA398; }
 
 section {
   padding-bottom: 3em; }
+
+.content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  max-width: 57em;
+  margin: 0 auto; }
 
 .titles {
   width: 50%;
@@ -101,18 +112,72 @@ nav {
     .about-box .about > h1, .about-box .about-right > h1 {
       font-weight: 100;
       margin-bottom: 0; }
-  .about-box .content-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    max-width: 57em;
-    margin: 0 auto; }
   .about-box .about-right {
     flex-direction: column; }
   .about-box .description {
     font-weight: 200; }
   .about-box .res-title {
     font-size: 1.5em; }
+
+.title-container {
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: .5em;
+  margin-top: 2em; }
+  .title-container .titleLink {
+    text-decoration: none;
+    color: #FBFFF1;
+    font-weight: 500; }
+  .title-container .titleLink:hover {
+    font-style: italic;
+    cursor: pointer; }
+
+.details {
+  align-items: flex-start;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 80%; }
+  .details > div {
+    width: 100%; }
+  .details > h3, .details h4 {
+    font-weight: 100; }
+  .details .description {
+    max-width: 38em;
+    margin: 0 auto 1.375em; }
+
+.login .description {
+  margin-bottom: 0;
+  max-width: 15em; }
+
+.desTitle {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 0.3em; }
+
+.desLinks {
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 30em; }
+  .desLinks > a {
+    border: 1px solid;
+    padding: .3em;
+    border-radius: 0.3em; }
+  .desLinks > a:hover {
+    background-color: #FBFFF1;
+    color: #6DA398;
+    cursor: pointer; }
+
+.pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  align-items: flex-start; }
+  .pics > img {
+    width: 20em;
+    margin: 0.8em; }
 
 .infoLinks {
   display: flex;
