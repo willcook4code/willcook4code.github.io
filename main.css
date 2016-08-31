@@ -165,7 +165,8 @@ nav {
   .desLinks > a {
     border: 1px solid;
     padding: .3em;
-    border-radius: 0.3em; }
+    border-radius: 0.3em;
+    text-align: center; }
   .desLinks > a:hover {
     background-color: #FBFFF1;
     color: #6DA398;
@@ -184,7 +185,8 @@ nav {
   .pics .mobile {
     height: 37.85em;
     overflow: hidden;
-    margin: .8em auto; }
+    margin: .8em auto;
+    width: 20em; }
     .pics .mobile > img {
       width: 20em; }
 
@@ -212,6 +214,11 @@ nav {
   font-size: 2em;
   color: #FBFFF1; }
 
+@media (max-width: 400px) {
+  .pics > img {
+    overflow: hidden; }
+  .pics .mobile .short {
+    width: 100%; } }
 @media (min-width: 440px) {
   nav {
     top: 96px; }

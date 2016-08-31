@@ -1,3 +1,16 @@
+@media (max-width: 400px) {
+  .pics {
+    >img {
+      overflow: hidden;
+    }
+    .mobile {
+      .short {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media (min-width: 440px) {
   nav {
     top: 96px;
