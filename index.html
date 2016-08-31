@@ -2,13 +2,21 @@
 <html>
 <head>
 	<title>Will Cook - Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans|Nobile|Source+Sans+Pro:400,700,700italic,900,900italic|Jura:400,600|Fjord+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<nav class="topBar">
+	<nav class="nav-down">
+		<a class="nav-link" href="#about">About</a>
+		<a class="nav-link" href="#ongoing">Ongoing</a>
+		<a class="nav-link" href="#responsive">Responsive</a>
+		<a class="nav-link" href="#previous">Previous</a>
+		<a class="nav-link" href="#links">Links</a>
+	</nav>
+	<header class="topBar">
 		<div class="headline">
 			<h1 class="name">WILL COOK</h1> 
 			<h3 class="title">Web Developer</h3>
@@ -17,64 +25,165 @@
 			<h3 class="contact phone">(214) 587-0380</h3>
 			<h3 class="contact email">willdcee@gmail.com</h3>
 		</div>
-	</nav>
-	<div class="about">
-		<h1><i>Past & Present</i></h1>
-	</div>
-	<section class="about-box">
-		<div class="about-left">
-			<h4 class="description about-des">I have always loved creating. I am enamored with the process of taking an idea from concept to completion. </br></br>As a film-maker, I fulfill this passion by piecing together the narrative into a cohesive, visual representation of itself. More recently, I have found a new outlet for creation in web development. I began this pursuit by completing an intensive front-end engineering course, and continue to grow daily in practice of the skills I have obtained.</br></br>I take great joy in identifying problems to be solved and finding that solution through planning, collaboration, and efficiency in the tools available to make that happen.</h4>
-		</div>
-		<div class="about-right">
-			<h1 class="res-title">R&#233sum&#233 Highlights</h1>
-			<ul class="description res-des">
-				<li>Completed the Front End Engineering course at The Iron Yard Austin</li>
-				<li>Earned a degree in Radio/TV/Film from the University of North Texas</li>
-				<li>Extensive skill set including JavaScript, HTML, CSS, Sass, jQuery, Backbone, React, Postgres/SQL, Express, APIs, Node.js, and Mocha.</li>
-			</ul>
-		</div>
-		<div class="infoLinks">
-			<a href="./images/WillCookResume.pdf" target="_blank" class="res-butt">R&#233sum&#233 PDF</a>
-			<a href="https://github.com/willcook4code" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-			<a href="https://www.linkedin.com/in/will-cook-8bb2b2b3" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a href="http://willcook4code.tumblr.com" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-			<a href="https://codepen.io/willcook4code" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/willcookforfilm" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-		</div>
-	</section>
-	<div class="works">
-		<h1><i>Works</i></h1>
-	</div>
-	<section class="weddit-box">
-		<h1><a class="titleLink" href="https://weddit.herokuapp.com" target="_blank">Weddit</a></h1>
-		<div class="leftSide">
-			<h4 class="description">My final project for The Iron Yard was Weddit - a wedding planning site with a focus on guest experience and interaction.  For this project, I used the following - React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.  API's include Filestack for photo upload and display, Spotify for song search and request, as well as Google Embed for hotel/venue location and nearby restaurants/attractions. </br>Dummy login: dansteen@gmail.com   pw: password</br> <a href="https://github.com/willcook4code/weddit-app" target="_blank">View the code here.</a></h4>
-			<a class="picLink" href="https://weddit.herokuapp.com" target="_blank"><img class="short" src="./images/weddit-home.png"></a>
-			<a class="picLink" href="https://weddit.herokuapp.com" target="_blank"><img class="short" src="./images/weddit-profile.png"></a>
-		</div>
-		<a class="picLink" href="https://weddit.herokuapp.com" target="_blank"><img class="long" src="./images/weddit-attendee.png"></a>
-	</section>
-	<section class="pointer-box">
-		<h1><a class="titleLink" href="https://pointerapp.herokuapp.com/" target="_blank">Pointer App</a></h1>
-		<div class="leftSide">
-			<h4 class="description">Building the Pointer App was exciting for many reasons. Our class of 10 front end programmers used the Scrum method, along with a Trello board to build out our user stories and break out the project into steps. The site was a prototype for a real-life client who was interested in constructing a tool for children to follow along with a story as it is read to them. The word being read is underlined to help with audio/visual association. It was a great opportunity to practice version control on github. We used React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass. </br>Dummy login: admin@admin.com   pw: admin</br> <a href="https://github.com/alarner/pointer-app" target="_blank">View the code here.</a></h4>
-			<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="short" src="./images/pointer-home.png"></a>
-		</div>
-		<div class="rightSide">
-			<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="long" src="./images/pointer-categories.png"></a>
-			<a class="picLink" href="https://pointerapp.herokuapp.com/" target="_blank"><img class="long" src="./images/pointer-read.png"></a>
-		</div>
-	</section>
-	<section class="bestfeed-box">
-		<h1><a class="titleLink" href="https://bestfeed.surge.sh" target="_blank">Best Feed</a></h1>
-		<div class="topSide">
-			<h4 class="description">Halfway through the course, we met up in groups of 4 to complete a project over the weekend. Our group was comprised of two Front End students, one Ruby student, and one student from Design. We built Best Feed - a site where users can vote on "Best of" lists from the internet to determine the best "Best of" list.  It was a great experience in learning how to work with other programmers of differing expertise.  Client-side programming was displayed from the server utilizing jQuery and AJAX requests from Backbone models, views, and collections. **This project is a continued work in progress. Our group is currently meeting for continued improvements.** </br> <a href="https://github.com/judan/best-of-list-team-wolfpack" target="_blank">View the code here.</a></h4>
-		</div>
-		<div class="bottomSide">
-			<a class="picLink" href="https://bestfeed.surge.sh" target="_blank"><img class="bestHome" src="./images/best-feed.png"></a>
-			<a class="picLink" href="https://bestfeed.surge.sh" target="_blank"><img class="bestList" src="./images/feed-list.png"></a>
-		</div>
-	</section>
+	</header>
+	<main class="main">
+		<section id="about" class="about-box">
+			<div class="about titles">
+				<h1>Past & Present</h1>
+			</div>
+			<div class="content-container">
+				<div class="about-left">
+					<h4 class="description about-des">I have always loved creating. I am enamored with the process of taking an idea from concept to completion. </br></br>As a film-maker, I fulfill this passion by piecing together the narrative into a cohesive, visual representation of itself. More recently, I have found a new outlet for creation in web development. I began this pursuit by completing an intensive front-end engineering course, and continue to grow daily in practice of the skills I have obtained.</br></br>I take great joy in identifying problems to be solved and finding that solution through planning, collaboration, and efficiency in the tools available to make that happen.</h4>
+				</div>
+				<div class="about-right">
+					<h1 class="res-title">R&#233sum&#233 Highlights</h1>
+					<ul class="description res-des">
+						<li>Completed the Front End Engineering course at The Iron Yard Austin</li>
+						<li>Earned a degree in Radio/TV/Film from the University of North Texas</li>
+						<li>Extensive skill set including JavaScript, HTML, CSS, Sass, jQuery, Backbone, React, Postgres/SQL, Express, APIs, Node.js, and Mocha.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="ongoing" class="ongoing-box">
+			<div class="divider"></div>
+			<div class="works titles">
+				<h1>Ongoing</h1>
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="https://weddit.herokuapp.com" target="_blank">Weddit</a></h1>
+			<div class="details content-container">
+				<h4 class="description">My final project for The Iron Yard was called Weddit - a wedding planning site with a focus on guest experience and interaction.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.</h4>
+				</div>
+				<div>
+					<h3 class="desTitle">API's</h3>
+					<h4 class="description">Filestack for photo upload and display, Spotify for song search and request, as well as Google Embed for hotel/venue location and nearby restaurants/attractions.</h4>
+				</div>
+				<div class="login">
+					<h3 class="desTitle">Sandbox Login</h3>
+					<h4 class="description">Username: dansteen@gmail.com</h4>
+					<h4 class="description">Password: password</h4>
+				</div>
+				<div class="desLinks">
+					<a href="https://weddit.herokuapp.com" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/weddit-app" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<img class="short" src="./images/weddit-home.png">
+				<img class="short" src="./images/weddit-profile.png">
+				<img class="long" src="./images/weddit-attendee.png">
+			</div>
+		</section>
+		<section id="responsive" class="responsive-box">
+			<div class="divider"></div>
+			<div class="works titles">
+				<h1>Responsive</h1>
+				<h3>(Pssst! Hey, this here portfolio - it's also responsive. Go ahead and give it a spin!)</h3>
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="http://responsive-ex.surge.sh" target="_blank">Responsive Rebuild</a></h1>
+			<div class="details content-container">
+				<h4 class="description">A weekend project assigned at the end of our first week.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">HTML, CSS3, Sass.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="http://responsive-ex.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/responsive-site" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<div class="mobile">
+					<img class="short" src="./images/responsive-mobile.png">
+				</div>
+				<img class="short" src="./images/responsive-mid.png">
+				<img class="long" src="./images/responsive-wide.png">
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="http://wills-bootsrap.surge.sh" target="_blank">Bootstrap Rebuild</a></h1>
+			<div class="details content-container">
+				<h4 class="description">An exercise in Bootstrap.  Rebuild of a static mockup.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">Bootstrap, HTML, CSS3.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="http://wills-bootsrap.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/willcook4code/bootstrap-grid" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<div class="mobile">
+					<img class="short" src="./images/bootstrap-mobile.png">
+				</div>
+				<img class="short" src="./images/bootstrap-mid.png">
+				<img class="long" src="./images/bootstrap-wide.png">
+			</div>
+		</section>
+		<section id="previous" class="previous-box">
+			<div class="divider"></div>
+			<div class="works titles">
+				<h1>Previous</h1>
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="https://pointerapp.herokuapp.com" target="_blank">Pointer App</a></h1>
+			<div class="details content-container">
+				<h4 class="description">Building the Pointer App was exciting for many reasons. Our class of 10 front end programmers used Agile methodologies, along with a Trello board to build out our user stories and break out the project into steps. My contributions centered mainly on the layout and functionality of the stories/categories page. The site was a prototype for a real-life client who was interested in constructing a tool for children to follow along with a story as it is read to them. The word being read is underlined to help with audio/visual association. It was a great opportunity to practice version control on github.</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">React, backbone, jQuery, Postgres/SQL, Express, Node.js, and Sass.</h4>
+				</div>
+				<div class="login">
+					<h3 class="desTitle">Sandbox Login</h3>
+					<h4 class="description">Username: admin@admin.com</h4>
+					<h4 class="description">Password: admin</h4>
+				</div>
+				<div class="desLinks">
+					<a href="https://pointerapp.herokuapp.com" target="_blank">See the Site!</a>
+					<a href="https://github.com/alarner/pointer-app" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<img class="short" src="./images/pointer-home.png">
+				<img class="short" src="./images/pointer-categories.png">
+				<img class="long" src="./images/pointer-read.png">
+			</div>
+			<h1 class="title-container"><a class="titleLink" href="https://bestfeed.surge.sh" target="_blank">Best Feed</a></h1>
+			<div class="details content-container">
+				<h4 class="description">Halfway through the course, we met up in groups of 4 to complete a project over the weekend. Our group was comprised of two Front End students, one Ruby student, and one student from Design. We built Best Feed - a very meta site where users can vote on "Best of" lists from the internet to determine the best "Best of" list.  It was a great experience in learning how to work with other programmers of differing expertise.</h4>
+				<h4 class="description">
+					**Post-Iron Yard, we met to make improvements on this site. It was refactored into React, yet ultimately abandoned.  Our group continues to meet weekly to work on a lost pet locating app. (Soon to come, if not already displayed in the "Ongoing" section.)
+				</h4>
+				<div>
+					<h3 class="desTitle">Tech</h3>
+					<h4 class="description techDes">Client-side programming was displayed from the server utilizing jQuery and AJAX requests from Backbone models, views, and collections.</h4>
+				</div>
+				<div class="desLinks">
+					<a href="https://bestfeed.surge.sh" target="_blank">See the Site!</a>
+					<a href="https://github.com/judan/best-of-list-team-wolfpack" target="_blank">View the Code</a>
+				</div>
+			</div>
+			<div class="pics">
+				<img class="short" src="./images/best-feed.png">
+				<img class="short" src="./images/feed-list.png">
+			</div>
+		</section>
+		<section id="links" class="links">
+			<div class="divider"></div>
+			<div class="links-title titles">
+				<h1>Click These Things</h1>
+			</div>
+			<div class="infoLinks">
+				<a href="./images/WillCookResume.pdf" target="_blank" class="res-butt">R&#233sum&#233 PDF</a>
+				<a href="https://github.com/willcook4code" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/will-cook-8bb2b2b3" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="http://willcook4code.tumblr.com" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+				<a href="https://codepen.io/willcook4code" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/willcookforfilm" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			</div>
+		</section>
+	</main>
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="src/scripts/apps.js"></script>
 </body>
